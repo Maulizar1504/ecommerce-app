@@ -1,6 +1,6 @@
 import { useCart } from "../context/CartContext";
 import dayjs from "dayjs";
-import CheckoutForm from "../components/CheckoutForm";
+import CheckoutForm from "../component/CheckoutForm";
 
 export default function Cart() {
   const { items, totalPrice, removeItem, clearCart, increaseQty, decreaseQty } =
